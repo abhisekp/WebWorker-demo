@@ -1,0 +1,55 @@
+{
+  "name": "webworker",
+  "private": true,
+  "dependencies": {
+    "hash-change": "^0.1.0",
+    "screenfull": "^3.0.0"
+  },
+  "version": "0.0.1",
+  "description": "Web Worker API Demo",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "csslint": "^0.10.0",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.2.0",
+    "exports-loader": "^0.6.2",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "htmlhint": "^0.9.7",
+    "htmlhint-loader": "^0.1.0",
+    "image-webpack-loader": "^1.6.3",
+    "js-beautify": "^1.5.10",
+    "jsonlint": "^1.6.2",
+    "node-sass": "^3.4.2",
+    "node-sass-import-once": "^1.2.0",
+    "postcss-loader": "^0.8.0",
+    "sass-loader": "^3.1.2",
+    "sass-loader-once": "0.0.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "dev-watch": "webpack-dev-server --hot --progress --colors",
+    "dev-build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisekp/WebWorker-demo.git"
+  },
+  "keywords": [
+    "webworker"
+  ],
+  "author": "Abhisek Pattnaik <abhisekp@engineer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhisekp/WebWorker-demo/issues"
+  },
+  "homepage": "http://abhisekp.github.io/WebWorker-demo",
+  "main": "src/index.js"
+}
