@@ -1,0 +1,28 @@
+{
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            2,
+            4
+        ],
+        "quotes": [
+            0, "double"
+        ],
+        "linebreak-style": [
+            2, "unix"
+        ],
+        "semi": [
+            2, "always"
+        ],
+        "no-unused-vars": [1, {"vars": "local", "args": "none"}]
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "mocha": true,
+        "amd": true,
+        "jquery": true
+    },
+    "parser": "babel-eslint"
+}
