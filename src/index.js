@@ -1,11 +1,11 @@
 import './css/app';
 console.log('Initiated');
-import {postMessage, getMessage} from './js/worker';
+import {postMessage, getMessage} from './js/worker-mixin';
 
 document.addEventListener('DOMContentLoaded', init);
 
 let workerBlob;
-require(['raw!../builds/worker'], (val) => {
+require(['raw!./js/worker'], (val) => {
     workerBlob = new Blob([val], {type: 'text/javascript'});
     console.log(workerBlob);
 });
