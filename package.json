@@ -50,6 +50,5 @@
   "bugs": {
     "url": "https://github.com/abhisekp/WebWorker-demo/issues"
   },
-  "homepage": "http://abhisekp.github.io/WebWorker-demo",
-  "main": "src/index.js"
+  "homepage": "http://abhisekp.github.io/WebWorker-demo"
 }
