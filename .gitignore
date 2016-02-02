@@ -51,4 +51,5 @@ node_modules
 !README.md
 coverage.html
 /bin/*_local.sh
-!/dist/
+!/dists/
+!/builds/
