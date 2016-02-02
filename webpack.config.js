@@ -11,7 +11,7 @@ module.exports = {
         path: publicPath,
         filename: '[name].bundle.js',
         chunkFilename: 'common-[id].js',
-        publicPath: publicPath
+        // publicPath: publicPath
     },
     devtool: 'source-map',
     debug: true,
@@ -66,7 +66,7 @@ module.exports = {
         preloaders: [
             {
                 test: /\.js$/i,
-                exclude: /node_modules|bower_components/,
+                exclude: /node_modules|bower_components|web_modules/,
                 loader: 'eslint'
             }
         ]
