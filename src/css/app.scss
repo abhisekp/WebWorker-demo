@@ -1,0 +1,37 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'base/base';
+
+html, body {
+    padding: 0;
+    margin: 0;
+    @include size(100%);
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+    color: inherit;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    box-shadow: 0 0 0.4em olive;
+    @include size(em(100px) em(50px));
+    background: tomato;
+    color: #333;
+    padding: em(3px);
+    font-size: em(24px);
+    font-family: $georgia;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    @include transition(background-color 0.5s $ease-in-out-back 0s, color 0.5s $ease-in-out-back 0s);
+}
+
+.btn:hover {
+    background: purple;
+    color: #EAEAEA;
+}
